@@ -7,19 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10E5FFF5162953F000064EFD /* GameListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E5FFF3162953F000064EFD /* GameListViewController.m */; };
+		10E5FFF6162953F000064EFD /* GameListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E5FFF4162953F000064EFD /* GameListViewController.xib */; };
 		F92F0E2B162933CE00510246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E2A162933CE00510246 /* UIKit.framework */; };
 		F92F0E2D162933CE00510246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E2C162933CE00510246 /* Foundation.framework */; };
 		F92F0E2F162933CE00510246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E2E162933CE00510246 /* CoreGraphics.framework */; };
 		F92F0E35162933CE00510246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E33162933CE00510246 /* InfoPlist.strings */; };
 		F92F0E37162933CE00510246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E36162933CE00510246 /* main.m */; };
 		F92F0E3B162933CE00510246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3A162933CE00510246 /* AppDelegate.m */; };
-		F92F0E3E162933CE00510246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3D162933CE00510246 /* ViewController.m */; };
-		F92F0E41162933CE00510246 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E3F162933CE00510246 /* ViewController.xib */; };
-		F92F0E44162933CE00510246 /* ViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E42162933CE00510246 /* ViewController~ipad.xib */; };
+		F92F0E3E162933CE00510246 /* WellcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3D162933CE00510246 /* WellcomeViewController.m */; };
+		F92F0E41162933CE00510246 /* WellcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E3F162933CE00510246 /* WellcomeViewController.xib */; };
+		F92F0E44162933CE00510246 /* WellcomeViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E42162933CE00510246 /* WellcomeViewController~ipad.xib */; };
 		F92F0E4B1629340E00510246 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E4A1629340E00510246 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10E5FFF2162953F000064EFD /* GameListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameListViewController.h; sourceTree = "<group>"; };
+		10E5FFF3162953F000064EFD /* GameListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameListViewController.m; sourceTree = "<group>"; };
+		10E5FFF4162953F000064EFD /* GameListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameListViewController.xib; sourceTree = "<group>"; };
 		F92F0E26162933CE00510246 /* Trolley Volley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trolley Volley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92F0E2A162933CE00510246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F92F0E2C162933CE00510246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -30,10 +35,10 @@
 		F92F0E38162933CE00510246 /* Trolley Volley-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trolley Volley-Prefix.pch"; sourceTree = "<group>"; };
 		F92F0E39162933CE00510246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F92F0E3A162933CE00510246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F92F0E3C162933CE00510246 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F92F0E3D162933CE00510246 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F92F0E40162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
-		F92F0E43162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/ViewController~ipad.xib"; sourceTree = "<group>"; };
+		F92F0E3C162933CE00510246 /* WellcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WellcomeViewController.h; sourceTree = "<group>"; };
+		F92F0E3D162933CE00510246 /* WellcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WellcomeViewController.m; sourceTree = "<group>"; };
+		F92F0E40162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WellcomeViewController.xib; sourceTree = "<group>"; };
+		F92F0E43162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/WellcomeViewController~ipad.xib"; sourceTree = "<group>"; };
 		F92F0E4A1629340E00510246 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -85,10 +90,13 @@
 			children = (
 				F92F0E39162933CE00510246 /* AppDelegate.h */,
 				F92F0E3A162933CE00510246 /* AppDelegate.m */,
-				F92F0E3C162933CE00510246 /* ViewController.h */,
-				F92F0E3D162933CE00510246 /* ViewController.m */,
-				F92F0E3F162933CE00510246 /* ViewController.xib */,
-				F92F0E42162933CE00510246 /* ViewController~ipad.xib */,
+				10E5FFF2162953F000064EFD /* GameListViewController.h */,
+				10E5FFF3162953F000064EFD /* GameListViewController.m */,
+				10E5FFF4162953F000064EFD /* GameListViewController.xib */,
+				F92F0E3C162933CE00510246 /* WellcomeViewController.h */,
+				F92F0E3D162933CE00510246 /* WellcomeViewController.m */,
+				F92F0E3F162933CE00510246 /* WellcomeViewController.xib */,
+				F92F0E42162933CE00510246 /* WellcomeViewController~ipad.xib */,
 				F92F0E31162933CE00510246 /* Supporting Files */,
 			);
 			path = "Trolley Volley";
@@ -157,8 +165,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F92F0E35162933CE00510246 /* InfoPlist.strings in Resources */,
-				F92F0E41162933CE00510246 /* ViewController.xib in Resources */,
-				F92F0E44162933CE00510246 /* ViewController~ipad.xib in Resources */,
+				F92F0E41162933CE00510246 /* WellcomeViewController.xib in Resources */,
+				F92F0E44162933CE00510246 /* WellcomeViewController~ipad.xib in Resources */,
+				10E5FFF6162953F000064EFD /* GameListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,7 +180,8 @@
 			files = (
 				F92F0E37162933CE00510246 /* main.m in Sources */,
 				F92F0E3B162933CE00510246 /* AppDelegate.m in Sources */,
-				F92F0E3E162933CE00510246 /* ViewController.m in Sources */,
+				F92F0E3E162933CE00510246 /* WellcomeViewController.m in Sources */,
+				10E5FFF5162953F000064EFD /* GameListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,20 +196,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F92F0E3F162933CE00510246 /* ViewController.xib */ = {
+		F92F0E3F162933CE00510246 /* WellcomeViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F92F0E40162933CE00510246 /* en */,
 			);
-			name = ViewController.xib;
+			name = WellcomeViewController.xib;
 			sourceTree = "<group>";
 		};
-		F92F0E42162933CE00510246 /* ViewController~ipad.xib */ = {
+		F92F0E42162933CE00510246 /* WellcomeViewController~ipad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F92F0E43162933CE00510246 /* en */,
 			);
-			name = "ViewController~ipad.xib";
+			name = "WellcomeViewController~ipad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface GameListViewController : UIViewController
-
+@property (retain, nonatomic) IBOutlet UITableView *tableViewGameList;
+-(IBAction)clickCreateGame:(id)sender;
 @end

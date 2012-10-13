@@ -6,13 +6,14 @@
 //  Copyright (c) 2012 VitBro. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WellcomeViewController.h"
+#import "GameListViewController.h"
 
-@interface ViewController ()
+@interface WellcomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation WellcomeViewController
 
 - (void)viewDidLoad
 {
@@ -35,4 +36,14 @@
     }
 }
 
+- (IBAction)clickNetworkGame:(id)sender
+{
+    GameListViewController *gameListViewController = [[[GameListViewController alloc] initWithNibName:@"GameListViewController" bundle:nil] autorelease];
+    [self.navigationController pushViewController:gameListViewController animated:YES];
+}
+
+- (IBAction)clickExit:(id)sender
+{
+    exit(0);
+}
 @end

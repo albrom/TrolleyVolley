@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WellcomeViewController : UIViewController
+- (IBAction)clickNetworkGame:(id)sender;
+- (IBAction)clickExit:(id)sender;
 
 @end

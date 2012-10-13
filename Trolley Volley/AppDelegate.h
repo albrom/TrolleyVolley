@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
+@class WellcomeViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) WellcomeViewController *wellcomeViewController;
+@property (retain, nonatomic) UINavigationController *navigationController;
 
 @end
