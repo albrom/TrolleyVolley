@@ -17,9 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //123qwe
-    //ANOTHER FIX
-    //THIRD FIX
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

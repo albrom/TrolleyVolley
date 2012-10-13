@@ -14,8 +14,8 @@
 		F92F0E37162933CE00510246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E36162933CE00510246 /* main.m */; };
 		F92F0E3B162933CE00510246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3A162933CE00510246 /* AppDelegate.m */; };
 		F92F0E3E162933CE00510246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3D162933CE00510246 /* ViewController.m */; };
-		F92F0E41162933CE00510246 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E3F162933CE00510246 /* ViewController_iPhone.xib */; };
-		F92F0E44162933CE00510246 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E42162933CE00510246 /* ViewController_iPad.xib */; };
+		F92F0E41162933CE00510246 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E3F162933CE00510246 /* ViewController.xib */; };
+		F92F0E44162933CE00510246 /* ViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E42162933CE00510246 /* ViewController~ipad.xib */; };
 		F92F0E4B1629340E00510246 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E4A1629340E00510246 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,8 +32,8 @@
 		F92F0E3A162933CE00510246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F92F0E3C162933CE00510246 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F92F0E3D162933CE00510246 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F92F0E40162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		F92F0E43162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		F92F0E40162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		F92F0E43162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "en.lproj/ViewController~ipad.xib"; sourceTree = "<group>"; };
 		F92F0E4A1629340E00510246 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -87,8 +87,8 @@
 				F92F0E3A162933CE00510246 /* AppDelegate.m */,
 				F92F0E3C162933CE00510246 /* ViewController.h */,
 				F92F0E3D162933CE00510246 /* ViewController.m */,
-				F92F0E3F162933CE00510246 /* ViewController_iPhone.xib */,
-				F92F0E42162933CE00510246 /* ViewController_iPad.xib */,
+				F92F0E3F162933CE00510246 /* ViewController.xib */,
+				F92F0E42162933CE00510246 /* ViewController~ipad.xib */,
 				F92F0E31162933CE00510246 /* Supporting Files */,
 			);
 			path = "Trolley Volley";
@@ -157,8 +157,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F92F0E35162933CE00510246 /* InfoPlist.strings in Resources */,
-				F92F0E41162933CE00510246 /* ViewController_iPhone.xib in Resources */,
-				F92F0E44162933CE00510246 /* ViewController_iPad.xib in Resources */,
+				F92F0E41162933CE00510246 /* ViewController.xib in Resources */,
+				F92F0E44162933CE00510246 /* ViewController~ipad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,20 +186,20 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F92F0E3F162933CE00510246 /* ViewController_iPhone.xib */ = {
+		F92F0E3F162933CE00510246 /* ViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F92F0E40162933CE00510246 /* en */,
 			);
-			name = ViewController_iPhone.xib;
+			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
-		F92F0E42162933CE00510246 /* ViewController_iPad.xib */ = {
+		F92F0E42162933CE00510246 /* ViewController~ipad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F92F0E43162933CE00510246 /* en */,
 			);
-			name = ViewController_iPad.xib;
+			name = "ViewController~ipad.xib";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -295,6 +295,7 @@
 				F92F0E49162933CE00510246 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
