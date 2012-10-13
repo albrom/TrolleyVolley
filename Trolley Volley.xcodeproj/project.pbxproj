@@ -16,6 +16,7 @@
 		F92F0E3E162933CE00510246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3D162933CE00510246 /* ViewController.m */; };
 		F92F0E41162933CE00510246 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E3F162933CE00510246 /* ViewController_iPhone.xib */; };
 		F92F0E44162933CE00510246 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E42162933CE00510246 /* ViewController_iPad.xib */; };
+		F92F0E4B1629340E00510246 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E4A1629340E00510246 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		F92F0E3D162933CE00510246 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F92F0E40162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		F92F0E43162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		F92F0E4A1629340E00510246 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92F0E4B1629340E00510246 /* GameKit.framework in Frameworks */,
 				F92F0E2B162933CE00510246 /* UIKit.framework in Frameworks */,
 				F92F0E2D162933CE00510246 /* Foundation.framework in Frameworks */,
 				F92F0E2F162933CE00510246 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +55,7 @@
 		F92F0E1B162933CD00510246 = {
 			isa = PBXGroup;
 			children = (
+				F92F0E4A1629340E00510246 /* GameKit.framework */,
 				F92F0E30162933CE00510246 /* Trolley Volley */,
 				F92F0E29162933CE00510246 /* Frameworks */,
 				F92F0E27162933CE00510246 /* Products */,
