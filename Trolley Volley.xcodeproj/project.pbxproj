@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F92F0E2B162933CE00510246 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E2A162933CE00510246 /* UIKit.framework */; };
+		F92F0E2D162933CE00510246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E2C162933CE00510246 /* Foundation.framework */; };
+		F92F0E2F162933CE00510246 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F92F0E2E162933CE00510246 /* CoreGraphics.framework */; };
+		F92F0E35162933CE00510246 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E33162933CE00510246 /* InfoPlist.strings */; };
+		F92F0E37162933CE00510246 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E36162933CE00510246 /* main.m */; };
+		F92F0E3B162933CE00510246 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3A162933CE00510246 /* AppDelegate.m */; };
+		F92F0E3E162933CE00510246 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92F0E3D162933CE00510246 /* ViewController.m */; };
+		F92F0E41162933CE00510246 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E3F162933CE00510246 /* ViewController_iPhone.xib */; };
+		F92F0E44162933CE00510246 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F92F0E42162933CE00510246 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F92F0E26162933CE00510246 /* Trolley Volley.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trolley Volley.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92F0E2A162933CE00510246 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F92F0E2C162933CE00510246 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F92F0E2E162933CE00510246 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F92F0E32162933CE00510246 /* Trolley Volley-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trolley Volley-Info.plist"; sourceTree = "<group>"; };
+		F92F0E34162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F92F0E36162933CE00510246 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F92F0E38162933CE00510246 /* Trolley Volley-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trolley Volley-Prefix.pch"; sourceTree = "<group>"; };
+		F92F0E39162933CE00510246 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F92F0E3A162933CE00510246 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F92F0E3C162933CE00510246 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F92F0E3D162933CE00510246 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F92F0E40162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		F92F0E43162933CE00510246 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F92F0E23162933CE00510246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F0E2B162933CE00510246 /* UIKit.framework in Frameworks */,
+				F92F0E2D162933CE00510246 /* Foundation.framework in Frameworks */,
+				F92F0E2F162933CE00510246 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F92F0E1B162933CD00510246 = {
+			isa = PBXGroup;
+			children = (
+				F92F0E30162933CE00510246 /* Trolley Volley */,
+				F92F0E29162933CE00510246 /* Frameworks */,
+				F92F0E27162933CE00510246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92F0E27162933CE00510246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92F0E26162933CE00510246 /* Trolley Volley.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92F0E29162933CE00510246 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F92F0E2A162933CE00510246 /* UIKit.framework */,
+				F92F0E2C162933CE00510246 /* Foundation.framework */,
+				F92F0E2E162933CE00510246 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F92F0E30162933CE00510246 /* Trolley Volley */ = {
+			isa = PBXGroup;
+			children = (
+				F92F0E39162933CE00510246 /* AppDelegate.h */,
+				F92F0E3A162933CE00510246 /* AppDelegate.m */,
+				F92F0E3C162933CE00510246 /* ViewController.h */,
+				F92F0E3D162933CE00510246 /* ViewController.m */,
+				F92F0E3F162933CE00510246 /* ViewController_iPhone.xib */,
+				F92F0E42162933CE00510246 /* ViewController_iPad.xib */,
+				F92F0E31162933CE00510246 /* Supporting Files */,
+			);
+			path = "Trolley Volley";
+			sourceTree = "<group>";
+		};
+		F92F0E31162933CE00510246 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F92F0E32162933CE00510246 /* Trolley Volley-Info.plist */,
+				F92F0E33162933CE00510246 /* InfoPlist.strings */,
+				F92F0E36162933CE00510246 /* main.m */,
+				F92F0E38162933CE00510246 /* Trolley Volley-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F92F0E25162933CE00510246 /* Trolley Volley */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92F0E47162933CE00510246 /* Build configuration list for PBXNativeTarget "Trolley Volley" */;
+			buildPhases = (
+				F92F0E22162933CE00510246 /* Sources */,
+				F92F0E23162933CE00510246 /* Frameworks */,
+				F92F0E24162933CE00510246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trolley Volley";
+			productName = "Trolley Volley";
+			productReference = F92F0E26162933CE00510246 /* Trolley Volley.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92F0E1D162933CD00510246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = VitBro;
+			};
+			buildConfigurationList = F92F0E20162933CD00510246 /* Build configuration list for PBXProject "Trolley Volley" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F92F0E1B162933CD00510246;
+			productRefGroup = F92F0E27162933CE00510246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F92F0E25162933CE00510246 /* Trolley Volley */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F92F0E24162933CE00510246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F0E35162933CE00510246 /* InfoPlist.strings in Resources */,
+				F92F0E41162933CE00510246 /* ViewController_iPhone.xib in Resources */,
+				F92F0E44162933CE00510246 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F92F0E22162933CE00510246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92F0E37162933CE00510246 /* main.m in Sources */,
+				F92F0E3B162933CE00510246 /* AppDelegate.m in Sources */,
+				F92F0E3E162933CE00510246 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F92F0E33162933CE00510246 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92F0E34162933CE00510246 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F92F0E3F162933CE00510246 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92F0E40162933CE00510246 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F92F0E42162933CE00510246 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F92F0E43162933CE00510246 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F92F0E45162933CE00510246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F92F0E46162933CE00510246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F92F0E48162933CE00510246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trolley Volley/Trolley Volley-Prefix.pch";
+				INFOPLIST_FILE = "Trolley Volley/Trolley Volley-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F92F0E49162933CE00510246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Trolley Volley/Trolley Volley-Prefix.pch";
+				INFOPLIST_FILE = "Trolley Volley/Trolley Volley-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F92F0E20162933CD00510246 /* Build configuration list for PBXProject "Trolley Volley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F0E45162933CE00510246 /* Debug */,
+				F92F0E46162933CE00510246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92F0E47162933CE00510246 /* Build configuration list for PBXNativeTarget "Trolley Volley" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92F0E48162933CE00510246 /* Debug */,
+				F92F0E49162933CE00510246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92F0E1D162933CD00510246 /* Project object */;
+}
